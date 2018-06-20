@@ -5,8 +5,11 @@ using UnityEngine;
 public class CarMovement : MonoBehaviour {
 
     public static GameObject playerGO;
+    public Transform leftTire;
+    public Transform rightTire;
 
-	public bool grounded;
+    public bool grounded;
+    public bool activeCor;
 	public Rigidbody rBody;
 
 	public int speed;
@@ -32,11 +35,16 @@ public class CarMovement : MonoBehaviour {
         Vector3 auxVel = transform.InverseTransformDirection(rBody.velocity);
         if (grounded)
         {
-			rBody.angularVelocity = new Vector3(rBody.angularVelocity.x, torque * Mathf.Clamp(rBody.velocity.magnitude/10f, 0.5f, 1), rBody.angularVelocity.z);
+            leftTire.transform.localRotation = Quaternion.Euler(new Vector3(0, -90 + torque * 10, 0));
+            rightTire.transform.localRotation = Quaternion.Euler(new Vector3(0, 90 + torque * 3, 0));
+
+            rBody.angularVelocity = new Vector3(rBody.angularVelocity.x, torque * Mathf.Clamp(rBody.velocity.magnitude/10f, 0.5f, 1), rBody.angularVelocity.z);
             if(!Input.GetKey(KeyCode.Space))rBody.AddForce(transform.forward * speed * Time.deltaTime, ForceMode.Impulse);
+            activeCor = false;
         }
         auxVel.x /= 1.023f;
         rBody.velocity = transform.TransformDirection(auxVel);
+        if (!grounded && !activeCor) StartCoroutine(RespawnTimer());
         grounded = false;
         if (Input.GetKey(KeyCode.Space)) rBody.velocity /= 1.01f;
     }
@@ -49,5 +57,18 @@ public class CarMovement : MonoBehaviour {
             health--;
             CanvasController.SetHealth(health);
         }
+    }
+
+    IEnumerator RespawnTimer()
+    {
+        activeCor = true;
+        yield return new WaitForSeconds(2);
+        if (activeCor) Respawn();
+    }
+
+    void Respawn()
+    {
+        rBody.velocity = rBody.angularVelocity = Vector3.zero;
+        transform.rotation = Quaternion.Euler(Vector3.zero);
     }
 }
