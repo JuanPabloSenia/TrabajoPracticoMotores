@@ -33,11 +33,10 @@ public class CarMovement : MonoBehaviour {
 		torque = Input.GetAxis ("Horizontal") * rotSpeed;
         grounded = Physics.Raycast(transform.position - transform.up*0.5f, -transform.up, 1.2f);
         Vector3 auxVel = transform.InverseTransformDirection(rBody.velocity);
+        leftTire.transform.localRotation = Quaternion.Euler(new Vector3(0, -90 + torque * 10, 0));
+        rightTire.transform.localRotation = Quaternion.Euler(new Vector3(0, 90 + torque * 10, 0));
         if (grounded)
         {
-            leftTire.transform.localRotation = Quaternion.Euler(new Vector3(0, -90 + torque * 10, 0));
-            rightTire.transform.localRotation = Quaternion.Euler(new Vector3(0, 90 + torque * 3, 0));
-
             rBody.angularVelocity = new Vector3(rBody.angularVelocity.x, torque * Mathf.Clamp(rBody.velocity.magnitude/10f, 0.5f, 1), rBody.angularVelocity.z);
             if(!Input.GetKey(KeyCode.Space))rBody.AddForce(transform.forward * speed * Time.deltaTime, ForceMode.Impulse);
             activeCor = false;

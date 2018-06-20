@@ -12,9 +12,10 @@ public class EnemySpawner : MonoBehaviour {
     public Transform targetHolder;
     public Transform spawnHolder;
 
-    void Start () {
+    void Awake () {
         if (enemySpawner == null)
             enemySpawner = this;
+
         enemyTargetLoc = new Vector3[targetHolder.childCount];
         for (int i = 0; i < targetHolder.childCount; i++)
         {
@@ -29,21 +30,6 @@ public class EnemySpawner : MonoBehaviour {
 	
 	public Vector3 GetSpawnPoint () {
         Vector3 pPos = GameObject.FindGameObjectWithTag("Player").transform.position;
-        /*for (int i = 0; i < enemySpawnLoc.Length; i++)
-        {
-            int lastIndex = 0;
-            float index0Distance = Vector3.Distance(pPos, enemySpawnLoc[0]);
-            for (int j = 1; j < enemySpawnLoc.Length-1-i; j++) {
-                float thisDistance = Vector3.Distance(pPos, enemySpawnLoc[j]);
-                if (thisDistance < index0Distance)
-                {
-                    Vector3 auxLoc = enemySpawnLoc[lastIndex];
-                    enemySpawnLoc[lastIndex] = enemySpawnLoc[j];
-                    enemySpawnLoc[j] = auxLoc;
-                    lastIndex = j;
-                }
-            }
-        }*/
         for (int i = 0; i < enemySpawnLoc.Length-1; i++)
         {
             float thisDistance = Vector3.Distance(enemySpawnLoc[i], pPos);
