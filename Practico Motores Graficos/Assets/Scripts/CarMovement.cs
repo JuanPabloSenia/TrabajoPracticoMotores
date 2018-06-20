@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CarMovement : MonoBehaviour {
 
@@ -46,6 +47,7 @@ public class CarMovement : MonoBehaviour {
         if (!grounded && !activeCor) StartCoroutine(RespawnTimer());
         grounded = false;
         if (Input.GetKey(KeyCode.Space)) rBody.velocity /= 1.01f;
+        if (Input.GetKeyDown(KeyCode.Space)) SceneManager.LoadScene(1, LoadSceneMode.Additive);
     }
 
     private void OnCollisionEnter(Collision other)
