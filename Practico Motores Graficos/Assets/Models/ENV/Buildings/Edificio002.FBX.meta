@@ -1,32 +1,16 @@
 fileFormatVersion: 2
-guid: 48d1f5db2a210934a9d4dabe85dd9cb9
-timeCreated: 1529522352
+guid: fd3ec30c16959d141a2d816dbe5ed0cf
+timeCreated: 1529545010
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Ruedas_Delanteras_Derecha
-    100004: Ruedas_Delanteras_Izquerda
-    100006: Ruedas_Traceras
     400000: //RootNode
-    400002: Ruedas_Delanteras_Derecha
-    400004: Ruedas_Delanteras_Izquerda
-    400006: Ruedas_Traceras
-    2100000: 'Material #0'
-    2100002: 'Material #27'
+    2100000: 01 - Default
     2300000: //RootNode
-    2300002: Ruedas_Delanteras_Derecha
-    2300004: Ruedas_Delanteras_Izquerda
-    2300006: Ruedas_Traceras
     3300000: //RootNode
-    3300002: Ruedas_Delanteras_Derecha
-    3300004: Ruedas_Delanteras_Izquerda
-    3300006: Ruedas_Traceras
-    4300000: Ladrones_auto_C
-    4300002: Ruedas_Traceras
-    4300004: Ruedas_Delanteras_Izquerda
-    4300006: Ruedas_Delanteras_Derecha
+    4300000: Edificio002
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -102,7 +86,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
