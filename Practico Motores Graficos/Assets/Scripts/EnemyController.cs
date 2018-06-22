@@ -10,7 +10,7 @@ public class EnemyController : MonoBehaviour {
     public NavMeshAgent agent;
     Rigidbody rBody;
 
-    public GameObject destroyedCar;
+    Vector3 lastPos;
 
     Vector3 active;
 
@@ -47,7 +47,7 @@ public class EnemyController : MonoBehaviour {
 
     IEnumerator setEnabled()
     {
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(2f);
         agent.enabled = true;
         SetTargetPos(Random.Range(0, enemySpawner.enemyTargetLoc.Length));
     }
@@ -57,9 +57,6 @@ public class EnemyController : MonoBehaviour {
         if (other.transform.tag == "Player")
         {
             agent.enabled = false;
-            /*GameObject aux = Instantiate(destroyedCar, transform.position, transform.rotation);
-            aux.transform.parent = transform.parent;
-            Destroy(gameObject);*/
             StartCoroutine(setEnabled());
         }
     }
