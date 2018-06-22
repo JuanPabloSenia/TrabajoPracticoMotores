@@ -1,26 +1,34 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+/*
+    Script base de los enemigos: Se encarca de buscar el punto de spawn mas cercano fuera del area de vision del
+    jugador, poner el enemigo allí y darle una posicion de destino.
 
+*/
 public class EnemySpawner : MonoBehaviour {
 
-    public static EnemySpawner enemySpawner;
+    public static EnemySpawner enemySpawner;//Singleton de la clase
 
+    //Array de puntos objetivos
+    public Transform targetHolder;
     public Vector3[] enemyTargetLoc;
+
+    //Array de puntos de spawn
+    public Transform spawnHolder;
     public Vector3[] enemySpawnLoc;
 
-    public Transform targetHolder;
-    public Transform spawnHolder;
 
     void Awake () {
         if (enemySpawner == null)
             enemySpawner = this;
+
+        //Agrega los puntos de spawn y de destino (Son childs de "targetHolder" y "spawnHolder") a sus respectivos arrays
 
         enemyTargetLoc = new Vector3[targetHolder.childCount];
         for (int i = 0; i < targetHolder.childCount; i++)
         {
             enemyTargetLoc[i] = targetHolder.GetChild(i).position;
         }
+
         enemySpawnLoc = new Vector3[spawnHolder.childCount];
         for (int i = 0; i < spawnHolder.childCount; i++)
         {
@@ -28,8 +36,10 @@ public class EnemySpawner : MonoBehaviour {
         }
     }
 	
+    //Devuelve un punto de spawn
 	public Vector3 GetSpawnPoint () {
         Vector3 pPos = GameObject.FindGameObjectWithTag("Player").transform.position;
+        //Ordenamiento de los puntos de spawn según su distancia al jugador
         for (int i = 0; i < enemySpawnLoc.Length-1; i++)
         {
             float thisDistance = Vector3.Distance(enemySpawnLoc[i], pPos);
@@ -45,7 +55,7 @@ public class EnemySpawner : MonoBehaviour {
         }
         float distance;
         int auxIndex = 0;
-        do
+        do//Omite los puntos de spawn que esten dentro del área de visión del jugador
         {
             distance = Vector3.Distance(enemySpawnLoc[auxIndex], pPos);
             auxIndex++;

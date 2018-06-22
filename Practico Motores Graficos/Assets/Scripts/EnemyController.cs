@@ -24,7 +24,7 @@ public class EnemyController : MonoBehaviour {
 
     private void Update()
     {
-        rBody.velocity *= 0.95f;
+        rBody.velocity *= 0.95f; //Al chocar al enemigo, salía disparado en esa dirección. Ésto es para que no se vaya tan lejos;
         if (Vector3.Distance(transform.position, active) < 5)
         {
             done = Random.Range(0, enemySpawner.enemySpawnLoc.Length);
