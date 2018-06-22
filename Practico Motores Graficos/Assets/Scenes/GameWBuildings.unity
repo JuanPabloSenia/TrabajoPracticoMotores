@@ -367,6 +367,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
   m_IsPrefabParent: 0
@@ -456,6 +460,10 @@ Prefab:
     - target: {fileID: 400000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
@@ -579,6 +587,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
   m_IsPrefabParent: 0
@@ -664,6 +676,10 @@ Prefab:
     - target: {fileID: 400000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
@@ -807,6 +823,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
   m_IsPrefabParent: 0
@@ -938,6 +958,10 @@ Prefab:
     - target: {fileID: 400000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
@@ -1076,6 +1100,10 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 0.798492
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
   m_IsPrefabParent: 0
@@ -1162,6 +1190,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: e91f06537e1bc4f459c90c6878176f91, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e91f06537e1bc4f459c90c6878176f91, type: 3}
   m_IsPrefabParent: 0
@@ -1231,6 +1263,10 @@ Prefab:
     - target: {fileID: 400000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
@@ -1337,6 +1373,10 @@ Prefab:
     - target: {fileID: 400000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
@@ -1448,6 +1488,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
   m_IsPrefabParent: 0
@@ -1521,6 +1565,10 @@ Prefab:
     - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
       propertyPath: m_Name
       value: Edificio026 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
@@ -1604,6 +1652,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: addfa81b89c61974d98ce7c8fd8a2727, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: addfa81b89c61974d98ce7c8fd8a2727, type: 3}
   m_IsPrefabParent: 0
@@ -1714,6 +1766,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.990005
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7f108317e71d83f47bb4d99bdd531fd7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7f108317e71d83f47bb4d99bdd531fd7, type: 3}
   m_IsPrefabParent: 0
@@ -1787,6 +1843,10 @@ Prefab:
     - target: {fileID: 400000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
@@ -1874,6 +1934,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
   m_IsPrefabParent: 0
@@ -1968,6 +2032,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180.00002
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
   m_IsPrefabParent: 0
@@ -2038,6 +2106,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
   m_IsPrefabParent: 0
@@ -2107,6 +2179,10 @@ Prefab:
     - target: {fileID: 400000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
@@ -2178,6 +2254,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
   m_IsPrefabParent: 0
@@ -2243,6 +2323,10 @@ Prefab:
     - target: {fileID: 400000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
@@ -2446,6 +2530,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
   m_IsPrefabParent: 0
@@ -2519,6 +2607,10 @@ Prefab:
     - target: {fileID: 400000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
@@ -2629,6 +2721,10 @@ Prefab:
     - target: {fileID: 400000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
@@ -2804,6 +2900,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180.00002
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
   m_IsPrefabParent: 0
@@ -2877,6 +2977,10 @@ Prefab:
     - target: {fileID: 400000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
@@ -3087,6 +3191,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
   m_IsPrefabParent: 0
@@ -3161,6 +3269,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
   m_IsPrefabParent: 0
@@ -3234,6 +3346,10 @@ Prefab:
     - target: {fileID: 400000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
@@ -3527,6 +3643,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
   m_IsPrefabParent: 0
@@ -3634,6 +3754,10 @@ Prefab:
     - target: {fileID: 400000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
@@ -3827,6 +3951,10 @@ Prefab:
     - target: {fileID: 400000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
@@ -4164,6 +4292,10 @@ Prefab:
       propertyPath: m_Name
       value: Edificio020 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
   m_IsPrefabParent: 0
@@ -4350,6 +4482,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
   m_IsPrefabParent: 0
@@ -4419,6 +4555,10 @@ Prefab:
     - target: {fileID: 400000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
@@ -4655,6 +4795,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
   m_IsPrefabParent: 0
@@ -4729,6 +4873,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
   m_IsPrefabParent: 0
@@ -4802,6 +4950,10 @@ Prefab:
     - target: {fileID: 100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
       propertyPath: m_Name
       value: Edificio023 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
@@ -4893,6 +5045,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
   m_IsPrefabParent: 0
@@ -4983,6 +5139,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
   m_IsPrefabParent: 0
@@ -5068,6 +5228,10 @@ Prefab:
     - target: {fileID: 400000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
@@ -5205,6 +5369,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
   m_IsPrefabParent: 0
@@ -5291,6 +5459,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
   m_IsPrefabParent: 0
@@ -5368,6 +5540,10 @@ Prefab:
     - target: {fileID: 400000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
@@ -5625,6 +5801,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
   m_IsPrefabParent: 0
@@ -5698,6 +5878,10 @@ Prefab:
     - target: {fileID: 400000, guid: e2271bfe092d87e48a65ff89b5edec68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.990005
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e2271bfe092d87e48a65ff89b5edec68, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e2271bfe092d87e48a65ff89b5edec68, type: 3}
@@ -6028,6 +6212,10 @@ Prefab:
       propertyPath: m_Name
       value: Edificio022 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
   m_IsPrefabParent: 0
@@ -6166,6 +6354,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
   m_IsPrefabParent: 0
@@ -6284,6 +6476,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
   m_IsPrefabParent: 0
@@ -6373,6 +6569,10 @@ Prefab:
     - target: {fileID: 400000, guid: e2271bfe092d87e48a65ff89b5edec68, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.990005
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e2271bfe092d87e48a65ff89b5edec68, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e2271bfe092d87e48a65ff89b5edec68, type: 3}
@@ -6468,6 +6668,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
   m_IsPrefabParent: 0
@@ -6546,6 +6750,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
   m_IsPrefabParent: 0
@@ -6604,6 +6812,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: e2271bfe092d87e48a65ff89b5edec68, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e2271bfe092d87e48a65ff89b5edec68, type: 3}
   m_IsPrefabParent: 0
@@ -6807,6 +7019,10 @@ Prefab:
     - target: {fileID: 400000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.798492
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
@@ -7013,6 +7229,10 @@ Prefab:
     - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
       propertyPath: m_Name
       value: Edificio022 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
@@ -7375,6 +7595,10 @@ Prefab:
       propertyPath: m_Name
       value: Edificio023 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
   m_IsPrefabParent: 0
@@ -7464,6 +7688,10 @@ Prefab:
     - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
       propertyPath: m_Name
       value: Edificio026 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
@@ -7555,6 +7783,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
   m_IsPrefabParent: 0
@@ -7640,6 +7872,10 @@ Prefab:
     - target: {fileID: 400000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
@@ -7830,6 +8066,10 @@ Prefab:
     - target: {fileID: 400000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
@@ -8191,6 +8431,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
   m_IsPrefabParent: 0
@@ -8301,6 +8545,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
   m_IsPrefabParent: 0
@@ -8374,6 +8622,10 @@ Prefab:
     - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
       propertyPath: m_Name
       value: Edificio026 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
@@ -8465,6 +8717,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
   m_IsPrefabParent: 0
@@ -8554,6 +8810,10 @@ Prefab:
     - target: {fileID: 400000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
@@ -8728,6 +8988,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
   m_IsPrefabParent: 0
@@ -8797,6 +9061,10 @@ Prefab:
     - target: {fileID: 400000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
@@ -8887,6 +9155,10 @@ Prefab:
     - target: {fileID: 100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
       propertyPath: m_Name
       value: Edificio018 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
@@ -8994,6 +9266,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
   m_IsPrefabParent: 0
@@ -9084,6 +9360,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.990005
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
   m_IsPrefabParent: 0
@@ -9157,6 +9437,10 @@ Prefab:
     - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
       propertyPath: m_Name
       value: Edificio029 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
@@ -9319,6 +9603,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
   m_IsPrefabParent: 0
@@ -9388,6 +9676,10 @@ Prefab:
     - target: {fileID: 400000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
@@ -9578,6 +9870,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
   m_IsPrefabParent: 0
@@ -9739,6 +10035,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
   m_IsPrefabParent: 0
@@ -9812,6 +10112,10 @@ Prefab:
     - target: {fileID: 400000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
@@ -9902,6 +10206,10 @@ Prefab:
     - target: {fileID: 100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
       propertyPath: m_Name
       value: Edificio020 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
@@ -10057,6 +10365,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
   m_IsPrefabParent: 0
@@ -10340,6 +10652,10 @@ Prefab:
       propertyPath: m_Name
       value: Edificio025 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
   m_IsPrefabParent: 0
@@ -10429,6 +10745,10 @@ Prefab:
     - target: {fileID: 400000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
@@ -10727,6 +11047,10 @@ Prefab:
       propertyPath: m_Name
       value: Edificio0015 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
   m_IsPrefabParent: 0
@@ -10816,6 +11140,10 @@ Prefab:
     - target: {fileID: 400000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
@@ -11029,6 +11357,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
   m_IsPrefabParent: 0
@@ -11095,6 +11427,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
   m_IsPrefabParent: 0
@@ -11164,6 +11500,10 @@ Prefab:
     - target: {fileID: 100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
       propertyPath: m_Name
       value: Edificio016 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
@@ -11328,6 +11668,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
   m_IsPrefabParent: 0
@@ -11472,6 +11816,10 @@ Prefab:
     - target: {fileID: 400000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
@@ -11669,6 +12017,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
   m_IsPrefabParent: 0
@@ -11973,6 +12325,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
   m_IsPrefabParent: 0
@@ -12043,6 +12399,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
   m_IsPrefabParent: 0
@@ -12109,6 +12469,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
   m_IsPrefabParent: 0
@@ -12280,6 +12644,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
   m_IsPrefabParent: 0
@@ -12382,6 +12750,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
   m_IsPrefabParent: 0
@@ -12468,6 +12840,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
   m_IsPrefabParent: 0
@@ -12541,6 +12917,10 @@ Prefab:
     - target: {fileID: 100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
       propertyPath: m_Name
       value: Edificio024 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
@@ -12632,6 +13012,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
   m_IsPrefabParent: 0
@@ -12705,6 +13089,10 @@ Prefab:
     - target: {fileID: 400000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
@@ -12796,6 +13184,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
   m_IsPrefabParent: 0
@@ -12881,6 +13273,10 @@ Prefab:
     - target: {fileID: 400000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
@@ -12971,6 +13367,10 @@ Prefab:
     - target: {fileID: 400000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
@@ -13104,6 +13504,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
   m_IsPrefabParent: 0
@@ -13181,6 +13585,10 @@ Prefab:
     - target: {fileID: 100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
       propertyPath: m_Name
       value: Edificio020 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
@@ -13874,6 +14282,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
   m_IsPrefabParent: 0
@@ -13944,6 +14356,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
   m_IsPrefabParent: 0
@@ -14030,6 +14446,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
   m_IsPrefabParent: 0
@@ -14100,6 +14520,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
   m_IsPrefabParent: 0
@@ -14173,6 +14597,10 @@ Prefab:
     - target: {fileID: 100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
       propertyPath: m_Name
       value: Edificio020 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
@@ -14293,6 +14721,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
   m_IsPrefabParent: 0
@@ -14362,6 +14794,10 @@ Prefab:
     - target: {fileID: 100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
       propertyPath: m_Name
       value: Edificio017 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
@@ -14516,6 +14952,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 655ce5efc0925f74db2d5e96d23f630b, type: 3}
   m_IsPrefabParent: 0
@@ -14618,6 +15058,10 @@ Prefab:
       propertyPath: m_Name
       value: Edificio021 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
   m_IsPrefabParent: 0
@@ -14707,6 +15151,10 @@ Prefab:
     - target: {fileID: 400000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
@@ -14798,6 +15246,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
   m_IsPrefabParent: 0
@@ -14875,6 +15327,10 @@ Prefab:
     - target: {fileID: 400000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
@@ -14966,6 +15422,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
   m_IsPrefabParent: 0
@@ -15040,6 +15500,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
   m_IsPrefabParent: 0
@@ -15146,6 +15610,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
   m_IsPrefabParent: 0
@@ -15235,6 +15703,10 @@ Prefab:
     - target: {fileID: 400000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.990005
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
@@ -15530,6 +16002,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 7f108317e71d83f47bb4d99bdd531fd7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7f108317e71d83f47bb4d99bdd531fd7, type: 3}
   m_IsPrefabParent: 0
@@ -15615,6 +16091,10 @@ Prefab:
     - target: {fileID: 400000, guid: d14740778efdf494b834e37c3b836720, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
@@ -15839,6 +16319,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -179.97101
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
   m_IsPrefabParent: 0
@@ -15929,6 +16413,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
   m_IsPrefabParent: 0
@@ -15999,6 +16487,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
   m_IsPrefabParent: 0
@@ -16065,6 +16557,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
   m_IsPrefabParent: 0
@@ -16134,6 +16630,10 @@ Prefab:
     - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
       propertyPath: m_Name
       value: Edificio022 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
@@ -16225,6 +16725,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
   m_IsPrefabParent: 0
@@ -16357,6 +16861,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
   m_IsPrefabParent: 0
@@ -16427,6 +16935,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
   m_IsPrefabParent: 0
@@ -16492,6 +17004,10 @@ Prefab:
     - target: {fileID: 400000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
@@ -16651,6 +17167,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: addfa81b89c61974d98ce7c8fd8a2727, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: addfa81b89c61974d98ce7c8fd8a2727, type: 3}
   m_IsPrefabParent: 0
@@ -16720,6 +17240,10 @@ Prefab:
     - target: {fileID: 400000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
@@ -16815,6 +17339,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
   m_IsPrefabParent: 0
@@ -16888,6 +17416,10 @@ Prefab:
     - target: {fileID: 400000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
@@ -16971,6 +17503,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
   m_IsPrefabParent: 0
@@ -17040,6 +17576,10 @@ Prefab:
     - target: {fileID: 400000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
@@ -17165,6 +17705,10 @@ Prefab:
     - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
       propertyPath: m_Name
       value: Edificio021 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
@@ -17423,6 +17967,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
   m_IsPrefabParent: 0
@@ -17517,6 +18065,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
   m_IsPrefabParent: 0
@@ -17607,6 +18159,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
   m_IsPrefabParent: 0
@@ -17681,6 +18237,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
   m_IsPrefabParent: 0
@@ -17750,6 +18310,10 @@ Prefab:
     - target: {fileID: 400000, guid: d14740778efdf494b834e37c3b836720, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
@@ -17841,6 +18405,10 @@ Prefab:
       propertyPath: m_Name
       value: Edificio025 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
   m_IsPrefabParent: 0
@@ -17930,6 +18498,10 @@ Prefab:
     - target: {fileID: 400000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
@@ -18101,6 +18673,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
   m_IsPrefabParent: 0
@@ -18258,6 +18834,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
   m_IsPrefabParent: 0
@@ -18327,6 +18907,10 @@ Prefab:
     - target: {fileID: 400000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
@@ -18518,6 +19102,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
   m_IsPrefabParent: 0
@@ -18576,6 +19164,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1200af637cbea664fab10aa011e3ab75, type: 3}
   m_IsPrefabParent: 0
@@ -18786,6 +19378,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
   m_IsPrefabParent: 0
@@ -18859,6 +19455,10 @@ Prefab:
     - target: {fileID: 400000, guid: d14740778efdf494b834e37c3b836720, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
@@ -19001,6 +19601,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
   m_IsPrefabParent: 0
@@ -19070,6 +19674,10 @@ Prefab:
     - target: {fileID: 400000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 627b9fc3bfeb76c4a93a67a5ce571137, type: 3}
@@ -19160,6 +19768,10 @@ Prefab:
     - target: {fileID: 400000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
@@ -19622,6 +20234,10 @@ Prefab:
       propertyPath: m_Name
       value: Edificio017 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
   m_IsPrefabParent: 0
@@ -19712,6 +20328,10 @@ Prefab:
       propertyPath: m_Name
       value: Edificio022 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
   m_IsPrefabParent: 0
@@ -19774,6 +20394,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 28c38a2fee33a7a4ea1425b6d4f77fa0, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 28c38a2fee33a7a4ea1425b6d4f77fa0, type: 3}
   m_IsPrefabParent: 0
@@ -19844,6 +20468,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
   m_IsPrefabParent: 0
@@ -20014,6 +20642,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
   m_IsPrefabParent: 0
@@ -20182,6 +20814,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07bde18c7552aaa4893f2c754cc547d7, type: 3}
   m_IsPrefabParent: 0
@@ -20251,6 +20887,10 @@ Prefab:
     - target: {fileID: 400000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
@@ -20491,6 +21131,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 1bb31e0bee22a83469fb84ef7809392d, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1bb31e0bee22a83469fb84ef7809392d, type: 3}
   m_IsPrefabParent: 0
@@ -20560,6 +21204,10 @@ Prefab:
     - target: {fileID: 400000, guid: 7f108317e71d83f47bb4d99bdd531fd7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 89.990005
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7f108317e71d83f47bb4d99bdd531fd7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7f108317e71d83f47bb4d99bdd531fd7, type: 3}
@@ -20742,6 +21390,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fe6f4127912cd34b80a299ab45b46e4, type: 3}
   m_IsPrefabParent: 0
@@ -20922,6 +21574,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d14740778efdf494b834e37c3b836720, type: 3}
   m_IsPrefabParent: 0
@@ -21011,6 +21667,10 @@ Prefab:
     - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
       propertyPath: m_Name
       value: Edificio021 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
@@ -21161,6 +21821,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.5818891
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
   m_IsPrefabParent: 0
@@ -21251,6 +21915,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
   m_IsPrefabParent: 0
@@ -21324,6 +21992,10 @@ Prefab:
     - target: {fileID: 400000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
@@ -21523,6 +22195,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984925
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
   m_IsPrefabParent: 0
@@ -21617,6 +22293,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52284b8b21cb1dd4f92fec7ac7c30736, type: 3}
   m_IsPrefabParent: 0
@@ -21690,6 +22370,10 @@ Prefab:
     - target: {fileID: 400000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984921
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0902333dbfdb3424c8bffdc8937fdd38, type: 3}
@@ -21769,6 +22453,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
   m_IsPrefabParent: 0
@@ -21835,6 +22523,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 7f108317e71d83f47bb4d99bdd531fd7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7f108317e71d83f47bb4d99bdd531fd7, type: 3}
   m_IsPrefabParent: 0
@@ -21937,6 +22629,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13c07c8bf300e6d4aa5c746121fe7590, type: 3}
   m_IsPrefabParent: 0
@@ -22039,6 +22735,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e5b6cf09571fbe446bba0afa1e779cc1, type: 2}
+    - target: {fileID: 100000, guid: 7f108317e71d83f47bb4d99bdd531fd7, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7f108317e71d83f47bb4d99bdd531fd7, type: 3}
   m_IsPrefabParent: 0
@@ -22104,6 +22804,10 @@ Prefab:
     - target: {fileID: 400000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 116b81fafb73f8c4dbac2db89a439188, type: 3}
@@ -22190,6 +22894,10 @@ Prefab:
     - target: {fileID: 400000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd00341ede44e554da9f3e018f7b4b19, type: 3}
@@ -22297,6 +23005,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.7984921
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d1cfaf7a0336234286f49349996c8b8, type: 3}
   m_IsPrefabParent: 0
@@ -22370,6 +23082,10 @@ Prefab:
     - target: {fileID: 400000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7984925
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c93894f22e0a57240ab18bd735cacd17, type: 3}
