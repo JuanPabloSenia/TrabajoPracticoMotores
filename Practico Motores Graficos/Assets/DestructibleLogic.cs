@@ -9,10 +9,11 @@ public class DestructibleLogic : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")//Al entrar el Jugador en el trigger, cambia de objeto
+        if (other.tag == "Player")//Al entrar el Jugador en el trigger, cambia de objeto y luego de 3 segundos, lo destruye
         {
             destructibleVersion.SetActive(true);
-            gameObject.SetActive(false);
+            Destroy(destructibleVersion, 3);
+            Destroy(gameObject);
         }
     }
 }
