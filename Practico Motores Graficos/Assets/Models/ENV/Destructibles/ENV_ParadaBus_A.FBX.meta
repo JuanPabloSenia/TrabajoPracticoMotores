@@ -1,28 +1,33 @@
 fileFormatVersion: 2
-guid: d1cb447be5d716646a62c1d4fb59fac7
-timeCreated: 1529554109
+guid: eabe1c7e04202e941944c1e80bf9672d
+timeCreated: 1529777330
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: ENV_SillaPiedra_B
-    100004: ENV_SillaPiedra_B_Parte1
-    100006: ENV_SillaPiedra_B_Parte2
+    100002: ENV_ParadaBus_A
+    100004: ENV_ParadaBus_A_Parte1
+    100006: ENV_ParadaBus_A_Parte2
+    100008: ENV_ParadaBus_A_Parte3
     400000: //RootNode
-    400002: ENV_SillaPiedra_B
-    400004: ENV_SillaPiedra_B_Parte1
-    400006: ENV_SillaPiedra_B_Parte2
+    400002: ENV_ParadaBus_A
+    400004: ENV_ParadaBus_A_Parte1
+    400006: ENV_ParadaBus_A_Parte2
+    400008: ENV_ParadaBus_A_Parte3
     2100000: 'Material #25'
-    2300000: ENV_SillaPiedra_B
-    2300002: ENV_SillaPiedra_B_Parte1
-    2300004: ENV_SillaPiedra_B_Parte2
-    3300000: ENV_SillaPiedra_B
-    3300002: ENV_SillaPiedra_B_Parte1
-    3300004: ENV_SillaPiedra_B_Parte2
-    4300000: ENV_SillaPiedra_B
-    4300002: ENV_SillaPiedra_B_Parte1
-    4300004: ENV_SillaPiedra_B_Parte2
+    2300000: ENV_ParadaBus_A
+    2300002: ENV_ParadaBus_A_Parte1
+    2300004: ENV_ParadaBus_A_Parte2
+    2300006: ENV_ParadaBus_A_Parte3
+    3300000: ENV_ParadaBus_A
+    3300002: ENV_ParadaBus_A_Parte1
+    3300004: ENV_ParadaBus_A_Parte2
+    3300006: ENV_ParadaBus_A_Parte3
+    4300000: ENV_ParadaBus_A
+    4300002: ENV_ParadaBus_A_Parte1
+    4300004: ENV_ParadaBus_A_Parte2
+    4300006: ENV_ParadaBus_A_Parte3
     9500000: //RootNode
   externalObjects: {}
   materials:

@@ -39,10 +39,14 @@ public class CarMovement : MonoBehaviour {
         if (grounded)
         {
             rBody.angularVelocity = new Vector3(rBody.angularVelocity.x, torque * Mathf.Clamp(rBody.velocity.magnitude/10f, 0.5f, 1), rBody.angularVelocity.z);
-            if(!Input.GetKey(KeyCode.Space))rBody.AddForce(transform.forward * speed * Time.deltaTime, ForceMode.Impulse);
+            if (!Input.GetKey(KeyCode.Space))
+                rBody.AddForce(transform.forward * speed * Time.deltaTime, ForceMode.Impulse);
+            else
+                if (rBody.velocity.magnitude < 10) rBody.AddForce(transform.forward * (-speed / 1.1f) * Time.deltaTime, ForceMode.Impulse);
             activeCor = false;
         }
         auxVel.x /= 1.023f;
+        if (auxVel.z > maxSpeed) auxVel.z = maxSpeed;
         rBody.velocity = transform.TransformDirection(auxVel);
         if (!grounded && !activeCor) StartCoroutine(RespawnTimer());
         grounded = false;
