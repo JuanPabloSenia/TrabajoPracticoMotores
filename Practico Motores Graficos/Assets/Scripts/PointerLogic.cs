@@ -1,5 +1,9 @@
 ﻿using UnityEngine;
 
+/*
+    Controlador de la flecha que apunta al enemigo
+*/
+
 public class PointerLogic : MonoBehaviour {
 
     public static GameObject pointerTarget;
@@ -8,13 +12,9 @@ public class PointerLogic : MonoBehaviour {
     public MeshRenderer b;
 
     bool renderOn = false;
-
-	void Start () {
-		
-	}
 	
 	void Update () {
-		if (pointerTarget != null)
+		if (pointerTarget != null) //Si hay un objetivo en escena, enciende los renderers de la flecha y en cada frame gira hacia el target
         {
             if (!renderOn)
             {
@@ -22,14 +22,14 @@ public class PointerLogic : MonoBehaviour {
             }
             transform.LookAt(pointerTarget.transform.position);
         }
-        else
+        else //Si no hay un objetivo en escena, apaga los renderers de la flecha
         {
             if (renderOn)
             {
                 a.enabled = b.enabled = renderOn = false;
             }
         }
-        if (player == null)
+        if (player == null) //Por si en algun momento se destruye al player
             player = GameObject.FindGameObjectWithTag("Player");
         transform.position = player.transform.position;
 	}

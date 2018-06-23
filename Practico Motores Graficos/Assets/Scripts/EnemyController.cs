@@ -22,6 +22,7 @@ public class EnemyController : MonoBehaviour {
 
     private void Update()
     {
+        rBody.velocity *= 0.99f;
         if (Vector3.Distance(transform.position, active) < 5)
         {
             SetTargetPos(Random.Range(0, enemySpawner.enemyTargetLoc.Length));
@@ -45,7 +46,7 @@ public class EnemyController : MonoBehaviour {
     {
         yield return new WaitForSeconds(2f);
         agent.enabled = true;
-        SetTargetPos(Random.Range(0, enemySpawner.enemyTargetLoc.Length));
+        if (!agent.hasPath) SetTargetPos(Random.Range(0, enemySpawner.enemyTargetLoc.Length));
     }
 
     private void OnCollisionEnter(Collision other)
