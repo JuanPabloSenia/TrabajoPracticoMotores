@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -15727,7 +15727,7 @@ MonoBehaviour:
   activeCor: 0
   rBody: {fileID: 1423440355}
   speed: 73
-  maxSpeed: 7
+  maxSpeed: 45
   rotSpeed: 3
   maxHealth: 0
   health: 0
