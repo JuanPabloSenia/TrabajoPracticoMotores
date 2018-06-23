@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - CollisionDmg
+  - Enemy
   layers:
   - Default
   - TransparentFX
