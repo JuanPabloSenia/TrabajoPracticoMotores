@@ -18,8 +18,11 @@ public class CanvasController : MonoBehaviour {
     public static void SetHealth(int hp)
     {
         hpText.text = hp.ToString();
-        
-        hpImage.sprite = Resources.Load<Sprite>(hp + "hp")  ;
+        if (hp>=0)
+        {
+            hpImage.sprite = Resources.Load<Sprite>(hp + "hp");
+        }
+           
         
     }
 }
