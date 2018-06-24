@@ -5,10 +5,12 @@ using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour {
 
+    public bool initialized = false;
+
     EnemySpawner enemySpawner;
 
     public GameObject car;
-    public float hp = 20;
+    public float hp;
     public GameObject pSys;
     public NavMeshAgent agent;
     Rigidbody rBody;
@@ -21,18 +23,21 @@ public class EnemyController : MonoBehaviour {
         rBody = GetComponent<Rigidbody>();
         enemySpawner = EnemySpawner.enemySpawner;
         Spawn();
+        if (!initialized) gameObject.SetActive(false);
+        initialized = true;
     }
 
     private void Update()
     {
-        rBody.velocity *= 0.99f; //El enemigo salia volando al chocarlo, de manera exagerada, esta linea evita eso
-        if (hp < 13f && !pSys.activeSelf)//activa sistema de particulas del fuego
+        rBody.velocity *= 0.99f;                    //El enemigo salia volando al chocarlo, de manera exagerada, esta linea evita eso
+        if (hp < 13f && !pSys.activeSelf)           //activa sistema de particulas del fuego
             pSys.SetActive(true);
-        if (hp < 0f)//Spawnea el siguiente auto
+        if (hp < 0f)                                //Spawnea el siguiente auto
         {
-            CanvasController.canvasController.enemigosDestruidos++;
-            Instantiate(car, transform.position, transform.rotation);
-            Destroy(gameObject);
+            CanvasController.canvasController.CarDestroyed();
+            car.SetActive(true);
+            car.GetComponent<EnemyController>().Spawn();
+            gameObject.SetActive(false);
         }
         if (Vector3.Distance(transform.position, active) < 5)
         {
@@ -40,20 +45,29 @@ public class EnemyController : MonoBehaviour {
         }
     }
 
-    void Spawn() //Al agregar un auto, se lo spawnea lo mas cerca posible del jugador
+    void Spawn()                                    //Al agregar un auto, se lo spawnea lo mas cerca posible del jugador
     {
+        hp = 20;
         transform.position = enemySpawner.GetSpawnPoint();
-        SetTargetPos(Random.Range(0, enemySpawner.enemyTargetLoc.Length));
-        PointerLogic.pointerTarget = this.gameObject;
+        if (initialized) PointerLogic.pointerTarget = this.gameObject;
+        rBody.velocity = rBody.angularVelocity = Vector3.zero;
+        pSys.SetActive(false);
+        StartCoroutine(LateSpawn());
     }
 
-    void SetTargetPos(int targetIndex) //Cuando el enemigo spawnea, llega a un destino o es chocado, cambia de objetivo, para matener la jugabilidad lo mas random posible
+    IEnumerator LateSpawn()                                //Delay para realizar la primer busqueda de target (BugFix)
+    {
+        yield return new WaitForSeconds(0.5f);
+        SetTargetPos(Random.Range(0, enemySpawner.enemyTargetLoc.Length));
+    }
+
+    void SetTargetPos(int targetIndex)              //Cuando el enemigo spawnea, llega a un destino o es chocado, cambia de objetivo, para matener la jugabilidad lo mas random posible
     {
         active = enemySpawner.enemyTargetLoc[targetIndex];
         agent.SetDestination(active);
     }
 
-    IEnumerator setEnabled() //Al ser chocado, se deshabilita el pathfinding por la duracion de esta corrutina
+    IEnumerator setEnabled()                        //Al ser chocado, se deshabilita el pathfinding por la duracion de esta corrutina
     {
         yield return new WaitForSeconds(2f);
         agent.enabled = true;
