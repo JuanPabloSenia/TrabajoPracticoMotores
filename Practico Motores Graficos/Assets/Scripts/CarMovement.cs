@@ -11,6 +11,7 @@ public class CarMovement : MonoBehaviour {
     public bool grounded;
     public bool activeCor;
 	public Rigidbody rBody;
+    public GameObject pSys;
 
 	public int speed;
     public float maxSpeed;
@@ -58,7 +59,9 @@ public class CarMovement : MonoBehaviour {
         {
             Debug.Log(other.impulse.magnitude);
             health--;
-            CanvasController.SetHealth(health);
+            if (health >= 0) CanvasController.SetHealth(health);
+            if (health <= 2)
+                pSys.SetActive(true);
         }
     }
 
