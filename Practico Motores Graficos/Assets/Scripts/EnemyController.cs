@@ -52,12 +52,7 @@ public class EnemyController : MonoBehaviour {
         if (initialized) PointerLogic.pointerTarget = this.gameObject;
         rBody.velocity = rBody.angularVelocity = Vector3.zero;
         pSys.SetActive(false);
-        StartCoroutine(LateSpawn());
-    }
-
-    IEnumerator LateSpawn()                                //Delay para realizar la primer busqueda de target (BugFix)
-    {
-        yield return new WaitForSeconds(0.5f);
+        agent.enabled = true;
         SetTargetPos(Random.Range(0, enemySpawner.enemyTargetLoc.Length));
     }
 
