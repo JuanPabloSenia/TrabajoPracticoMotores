@@ -1025,7 +1025,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 17.849976, y: -18.399994}
+  m_AnchoredPosition: {x: 17.849976, y: -18.400024}
   m_SizeDelta: {x: 326.3, y: 61.199997}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &465410553
@@ -2202,7 +2202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &716215934
 ParticleSystemRenderer:
   serializedVersion: 4
@@ -2317,7 +2317,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 39877672
+  randomSeed: -499875131
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7614,15 +7614,6 @@ Prefab:
     - target: {fileID: 4374755470284008, guid: 83f0c8295e35c8d4086ea6c1d083abf8, type: 2}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 54078482317758390, guid: 83f0c8295e35c8d4086ea6c1d083abf8,
-        type: 2}
-      propertyPath: m_Mass
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1103219909734370, guid: 83f0c8295e35c8d4086ea6c1d083abf8, type: 2}
-      propertyPath: m_TagString
-      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 83f0c8295e35c8d4086ea6c1d083abf8, type: 2}
