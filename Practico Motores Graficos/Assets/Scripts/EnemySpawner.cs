@@ -59,7 +59,7 @@ public class EnemySpawner : MonoBehaviour {
         {
             distance = Vector3.Distance(enemySpawnLoc[auxIndex], pPos);
             auxIndex++;
-        } while (distance < 50);
+        } while (distance < 80);
         return enemySpawnLoc[auxIndex - 1];
     }
 }

@@ -328,7 +328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a58698b555b945142a5b8c1a46ce4822, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  car: {fileID: 1519534170156060, guid: cd6195411df315b42b80a5b95b42818e, type: 2}
+  car: {fileID: 0}
   hp: 20
   pSys: {fileID: 1919918259709724}
   agent: {fileID: 195799672509147930}

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 /*
-    Script atachado a todos los objetos destructibles del mapa (Basureros, Semáforos, Carteles) que activa la version de cada uno por partes
+    Script atachado a todos los objetos destructibles del mapa (Basureros, Semáforos, Carteles) que activa la version destruida de cada uno
 */
 public class DestructibleLogic : MonoBehaviour {
 
