@@ -7,6 +7,9 @@ public class EnemyController : MonoBehaviour {
 
     EnemySpawner enemySpawner;
 
+    public GameObject car;
+    public float hp = 20;
+    public GameObject pSys;
     public NavMeshAgent agent;
     Rigidbody rBody;
 
@@ -22,6 +25,14 @@ public class EnemyController : MonoBehaviour {
 
     private void Update()
     {
+        rBody.velocity *= 0.99f; //El enemigo salia volando al chocarlo, de manera exagerada, esta linea evita eso
+        if (hp < 13f && !pSys.activeSelf)
+            pSys.SetActive(true);
+        if (hp < 0f)
+        {
+            Instantiate(car, transform.position, transform.rotation);
+            Destroy(gameObject);
+        }
         if (Vector3.Distance(transform.position, active) < 5)
         {
             SetTargetPos(Random.Range(0, enemySpawner.enemyTargetLoc.Length));
@@ -45,7 +56,7 @@ public class EnemyController : MonoBehaviour {
     {
         yield return new WaitForSeconds(2f);
         agent.enabled = true;
-        SetTargetPos(Random.Range(0, enemySpawner.enemyTargetLoc.Length));
+        if (!agent.hasPath) SetTargetPos(Random.Range(0, enemySpawner.enemyTargetLoc.Length));
     }
 
     private void OnCollisionEnter(Collision other)
@@ -53,6 +64,7 @@ public class EnemyController : MonoBehaviour {
         if (other.transform.tag == "Player")
         {
             agent.enabled = false;
+            hp -= other.impulse.magnitude/1.3f;
             StartCoroutine(setEnabled());
         }
     }
