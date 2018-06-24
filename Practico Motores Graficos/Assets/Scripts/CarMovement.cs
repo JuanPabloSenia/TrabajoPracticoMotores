@@ -55,11 +55,11 @@ public class CarMovement : MonoBehaviour {
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.collider.tag == "CollisionDmg" && other.impulse.magnitude > 45)
+        if (other.collider.tag == "CollisionDmg" && other.impulse.magnitude > 45) //Resta vida al chocarse con los muros muy fuerte
         {
             Debug.Log(other.impulse.magnitude);
             health--;
-            if (health >= 0) CanvasController.SetHealth(health);
+            if (health >= 0) CanvasController.canvasController.SetHealth(health);
             if (health <= 2)
                 pSys.SetActive(true);
         }

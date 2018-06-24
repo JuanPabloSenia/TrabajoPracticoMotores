@@ -26,10 +26,11 @@ public class EnemyController : MonoBehaviour {
     private void Update()
     {
         rBody.velocity *= 0.99f; //El enemigo salia volando al chocarlo, de manera exagerada, esta linea evita eso
-        if (hp < 13f && !pSys.activeSelf)
+        if (hp < 13f && !pSys.activeSelf)//activa sistema de particulas del fuego
             pSys.SetActive(true);
-        if (hp < 0f)
+        if (hp < 0f)//Spawnea el siguiente auto
         {
+            CanvasController.canvasController.enemigosDestruidos++;
             Instantiate(car, transform.position, transform.rotation);
             Destroy(gameObject);
         }

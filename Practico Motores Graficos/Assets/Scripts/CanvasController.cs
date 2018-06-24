@@ -5,19 +5,40 @@ using UnityEngine.UI;
 
 public class CanvasController : MonoBehaviour {
 
-    //public static Text hpText;
-    public static Image hpImage;
-    public Image hpsprites;
+    public static CanvasController canvasController;
+    public Image hpImage;
+    public Text enemyCount;
+    public int DestroyedCars;
+    public int enemigosDestruidos = 0;
 
-	void Start ()
+    private void Awake()
     {
-        //hpText = transform.GetChild(0).GetComponent<Text>();
-        hpImage = transform.GetChild(0).GetComponent<Image>();
+        if (canvasController == null)
+        {
+            canvasController = this;
+        }
+    }
+
+    void Start ()
+    {
+        
+
 	}
-	
-    public static void SetHealth(int hp)
+    private void Update()
     {
-        //hpText.text = hp.ToString();
+        if (enemigosDestruidos<=9)
+        {
+            enemyCount.text = "0" + enemigosDestruidos.ToString();
+        }
+        else
+        {
+            enemyCount.text = enemigosDestruidos.ToString();
+        }
+        
+    }
+
+    public void SetHealth(int hp)
+    {
         
         hpImage.sprite = Resources.Load<Sprite>(hp + "hp");
     }
