@@ -29,8 +29,8 @@ public class CameraController : MonoBehaviour {
         }
         else
         {
-            cam.rotation = Quaternion.Lerp(cam.rotation, camRotation, 5*Time.deltaTime);
-            cam.transform.position = Vector3.Lerp(cam.transform.position, new Vector3(cam.transform.position.x, cam.transform.position.y, transform.position.z), 5 * Time.deltaTime);
+            cam.rotation = Quaternion.Lerp(cam.rotation, camRotation, Time.deltaTime);
+            cam.transform.position = Vector3.Lerp(cam.transform.position, new Vector3(cam.transform.position.x, cam.transform.position.y, transform.position.z), Time.deltaTime);
         }
         isOnBuilding = false;
 	}

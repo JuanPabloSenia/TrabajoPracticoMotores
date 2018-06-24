@@ -3219,7 +3219,7 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.862069, g: 1, b: 0, a: 1}
+        key0: {r: 1, g: 0.8482758, b: 0, a: 1}
         key1: {r: 1, g: 0, b: 0, a: 1}
         key2: {r: 0.20588237, g: 0.20588237, b: 0.20588237, a: 0}
         key3: {r: 0.64705884, g: 0.64705884, b: 0.64705884, a: 0}
@@ -7269,6 +7269,7 @@ MonoBehaviour:
   grounded: 0
   activeCor: 0
   rBody: {fileID: 1423440355}
+  pSys: {fileID: 0}
   speed: 73
   maxSpeed: 45
   rotSpeed: 3
