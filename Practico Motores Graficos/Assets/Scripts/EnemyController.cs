@@ -84,7 +84,7 @@ public class EnemyController : MonoBehaviour {
     {
         if (other.transform.tag == "Player")
         {
-			if(other.impulse.magnitude/1.3f > 2.6f)
+			if(other.impulse.magnitude/1.3f > 2.2f)
 			fuenteAudio.Play ();
 
             agent.enabled = false;
