@@ -1,10 +1,13 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 /*
     Script base de los enemigos: Se encarca de buscar el punto de spawn mas cercano fuera del area de vision del
     jugador, poner el enemigo allí y darle una posicion de destino.
 
 */
 public class EnemySpawner : MonoBehaviour {
+
+    Scene[] scenes = new Scene[9];
 
     public static EnemySpawner enemySpawner;//Singleton de la clase
 
@@ -18,6 +21,10 @@ public class EnemySpawner : MonoBehaviour {
 
 
     void Awake () {
+        for (int i = 0; i < 9; i++)
+        {
+            SceneManager.LoadScene(i+2, LoadSceneMode.Additive);
+        }
         if (enemySpawner == null)
             enemySpawner = this;
 

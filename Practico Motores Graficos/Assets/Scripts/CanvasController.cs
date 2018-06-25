@@ -13,6 +13,12 @@ public class CanvasController : MonoBehaviour {
     public int enemigosDestruidos = 0;
     public int timer;
 
+    CarMovement player;
+    float torque;
+    float lPress, rPress;
+    public Image left;
+    public Image right;
+
     private void Awake()
     {
         if (canvasController == null)
@@ -21,6 +27,32 @@ public class CanvasController : MonoBehaviour {
         }
         timer = 240;
         StartCoroutine(TimerUpdater());
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<CarMovement>();
+    }
+
+    private void Update()
+    {
+        player.torque = Mathf.Lerp(player.torque, (rPress-lPress)*player.rotSpeed, 9.5f*Time.deltaTime);
+        if (lPress == 1 && rPress == 1)
+            player.braking = true;
+        else
+            player.braking = false;
+    }
+
+    public void ButtonPressed(bool leftOne)
+    {
+        if (leftOne)
+            lPress = 1;
+        else
+            rPress = 1;
+    }
+
+    public void ButtonReleased(bool leftOne)
+    {
+        if (leftOne)
+            lPress = 0;
+        else
+            rPress = 0;
     }
 
     public void CarDestroyed()// Se actualiza el contador de enemigos destruidos

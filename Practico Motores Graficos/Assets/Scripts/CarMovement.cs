@@ -16,8 +16,9 @@ public class CarMovement : MonoBehaviour {
 	public int speed;
     public float maxSpeed;
 	public float rotSpeed;
+    public bool braking;
 
-	float torque;
+	public float torque;
     
     public int maxHealth;
     public int health;
@@ -29,7 +30,10 @@ public class CarMovement : MonoBehaviour {
 	}
 	
 	void Update () {
-		torque = Input.GetAxis ("Horizontal") * rotSpeed;
+#if UNITY_EDITOR
+        torque = Input.GetAxis ("Horizontal") * rotSpeed;
+        braking = Input.GetKey(KeyCode.Space);
+#endif
         grounded = Physics.Raycast(transform.position - transform.up*0.5f, -transform.up, 1.2f);//Raycast para chequear si esta tocando el suelo
         Vector3 auxVel = transform.InverseTransformDirection(rBody.velocity);
         leftTire.transform.localRotation = Quaternion.Euler(new Vector3(0, -90 + torque * 10, 0));
@@ -37,7 +41,7 @@ public class CarMovement : MonoBehaviour {
         if (grounded)                                                                       //Comportamiento del player cuando esta tocando el suelo
         {
             rBody.angularVelocity = new Vector3(rBody.angularVelocity.x, torque * Mathf.Clamp(rBody.velocity.magnitude/10f, 0.5f, 1), rBody.angularVelocity.z);
-            if (!Input.GetKey(KeyCode.Space))
+            if (!braking)
                 rBody.AddForce(transform.forward * speed * Time.deltaTime, ForceMode.Impulse);
             else
                 if (rBody.velocity.magnitude < 10) rBody.AddForce(transform.forward * (-speed / 1.1f) * Time.deltaTime, ForceMode.Impulse);
