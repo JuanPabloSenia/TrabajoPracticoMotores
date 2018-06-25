@@ -91,4 +91,9 @@ public class CanvasController : MonoBehaviour {
         CanvasPausa.SetActive(true);
         this.gameObject.SetActive(false);
     }
+
+    public void timerupdatePlay()
+    {
+        StartCoroutine(TimerUpdater());
+    }
 }

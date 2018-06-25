@@ -25,5 +25,6 @@ public class CanvasGameoverController : MonoBehaviour {
         Time.timeScale = 1;
         this.gameObject.SetActive(false);
         inGameCanvas.SetActive(true);
+        inGameCanvas.GetComponent<CanvasController>().timerupdatePlay();
     }
 }
