@@ -98,7 +98,6 @@ public class CarMovement : MonoBehaviour {
 
     public void menuGameOver()                                                               //Cambia el canvas por el GameOver
     {
-        
         ScorePoints.text = InGamecv.GetComponent<CanvasController>().enemigosDestruidos.ToString("00");
         InGamecv.SetActive(false);
         GameOvercv.SetActive(true);
