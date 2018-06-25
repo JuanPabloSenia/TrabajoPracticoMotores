@@ -88,6 +88,7 @@ public class CanvasController : MonoBehaviour {
     public void Pausa()
     {
         Time.timeScale = 0;
+        CanvasPausa.GetComponent<CanvasGameoverController>().setScore(enemigosDestruidos);
         CanvasPausa.SetActive(true);
         this.gameObject.SetActive(false);
     }
