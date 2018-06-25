@@ -59,12 +59,19 @@ public class CarMovement : MonoBehaviour {
     {
         if (other.collider.tag == "CollisionDmg" && other.impulse.magnitude > 45)           //Resta vida al chocarse con los muros muy fuerte
         {
-            Debug.Log(other.impulse.magnitude);
             health--;
             if (health >= 0) CanvasController.canvasController.SetHealth(health);
             if (health <= 2)
                 pSys.SetActive(true);
         }
+    }
+
+    public static IEnumerator LoadChunk(int index)
+    {
+        AsyncOperation asyncOp = SceneManager.LoadSceneAsync(index, LoadSceneMode.Additive);
+
+        while (!asyncOp.isDone)
+            yield return null;
     }
 
     IEnumerator RespawnTimer()                                                              //chequea si el jugador no esta tocando el suelo por 2 segundos

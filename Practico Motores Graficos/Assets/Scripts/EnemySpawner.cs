@@ -7,8 +7,6 @@ using UnityEngine.SceneManagement;
 */
 public class EnemySpawner : MonoBehaviour {
 
-    Scene[] scenes = new Scene[9];
-
     public static EnemySpawner enemySpawner;//Singleton de la clase
 
     //Array de puntos objetivos
