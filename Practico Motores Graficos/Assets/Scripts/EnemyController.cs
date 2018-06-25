@@ -20,8 +20,12 @@ public class EnemyController : MonoBehaviour {
     public bool isAlive = false;
     public GameObject destroyedHolder;
     public GameObject destroyedVersion;
+	public AudioClip crashSound;
+	AudioSource fuenteAudio;
 
     void Start () {
+		fuenteAudio = GetComponent<AudioSource> ();
+		fuenteAudio.clip = crashSound;
         rBody = GetComponent<Rigidbody>();
         enemySpawner = EnemySpawner.enemySpawner;
         Spawn();
@@ -80,6 +84,9 @@ public class EnemyController : MonoBehaviour {
     {
         if (other.transform.tag == "Player")
         {
+			if(other.impulse.magnitude/1.3f > 2.6f)
+			fuenteAudio.Play ();
+
             agent.enabled = false;
             hp -= other.impulse.magnitude/1.3f;
             StartCoroutine(setEnabled());

@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 54233341956160704}
   - component: {fileID: 195799672509147930}
   - component: {fileID: 114690972978635344}
+  - component: {fileID: 82816380298806402}
   m_Layer: 8
   m_Name: EneLittle
   m_TagString: Enemy
@@ -346,6 +347,86 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.64198405, y: 0.544787, z: 1.1556171}
   m_Center: {x: 0, y: -0.35864162, z: 0.018385608}
+--- !u!82 &82816380298806402
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1117076812138550}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!114 &114690972978635344
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -357,7 +438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a58698b555b945142a5b8c1a46ce4822, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialized: 1
+  initialized: 0
   car: {fileID: 0}
   hp: 20
   pSys: {fileID: 1919918259709724}
@@ -366,6 +447,7 @@ MonoBehaviour:
   destroyedHolder: {fileID: 1118030290610908}
   destroyedVersion: {fileID: 1279010140892292, guid: 5871efd8cf24f45469dfa2be21e33ca2,
     type: 2}
+  crashSound: {fileID: 8300000, guid: 1fd1529bd4f361541907eb408cfe4f78, type: 3}
 --- !u!195 &195799672509147930
 NavMeshAgent:
   m_ObjectHideFlags: 1

@@ -5,7 +5,13 @@ licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - car: {instanceID: 0}
+  - pSys: {instanceID: 0}
+  - agent: {instanceID: 0}
+  - destroyedHolder: {instanceID: 0}
+  - destroyedVersion: {instanceID: 0}
+  - crashSound: {fileID: 8300000, guid: 1fd1529bd4f361541907eb408cfe4f78, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
