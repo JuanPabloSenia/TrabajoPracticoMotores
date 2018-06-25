@@ -20,6 +20,7 @@ public class CanvasGameoverController : MonoBehaviour {
     public void gotoMenu()
     {
         SceneManager.LoadScene("Menu");
+        Time.timeScale = 1;
     }
 
     public void Continue()
