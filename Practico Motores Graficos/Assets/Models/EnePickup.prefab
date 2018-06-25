@@ -370,15 +370,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a58698b555b945142a5b8c1a46ce4822, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialized: 0
-  destroyedVersion: {fileID: 1548108645184578, guid: f13dda9bba59c494382ac8d157cd48ed,
-    type: 2}
+  initialized: 1
   car: {fileID: 0}
   hp: 20
   pSys: {fileID: 1634757298698832}
   agent: {fileID: 195876355559532804}
   isAlive: 0
   destroyedHolder: {fileID: 1296534904629084}
+  destroyedVersion: {fileID: 1548108645184578, guid: f13dda9bba59c494382ac8d157cd48ed,
+    type: 2}
 --- !u!195 &195876355559532804
 NavMeshAgent:
   m_ObjectHideFlags: 1

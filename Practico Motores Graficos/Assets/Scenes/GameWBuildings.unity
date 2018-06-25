@@ -21038,16 +21038,6 @@ Prefab:
       propertyPath: car
       value: 
       objectReference: {fileID: 1303731592}
-    - target: {fileID: 195876355559532804, guid: 83f0c8295e35c8d4086ea6c1d083abf8,
-        type: 2}
-      propertyPath: m_Speed
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114478030615393132, guid: 83f0c8295e35c8d4086ea6c1d083abf8,
-        type: 2}
-      propertyPath: initialized
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 83f0c8295e35c8d4086ea6c1d083abf8, type: 2}
   m_IsPrefabParent: 0
