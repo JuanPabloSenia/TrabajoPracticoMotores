@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -27,6 +28,10 @@ public class CarMovement : MonoBehaviour {
     public GameObject InGamecv;
     public GameObject GameOvercv;
     public Text ScorePoints;
+
+    public Sprite[] sprites;
+    public Image noiseImage;
+    float sprInt;
 
     void Start () {
         maxHealth = health = 5;
@@ -58,7 +63,32 @@ public class CarMovement : MonoBehaviour {
         if (!grounded && !activeCor) StartCoroutine(RespawnTimer());
         grounded = false;
         if (Input.GetKey(KeyCode.Space)) rBody.velocity /= 1.01f;
+        //Ruido estatico al alejarse de la zona de juego
+        if (sprInt < 3)
+            sprInt+=0.3f;
+        else
+            sprInt = 0;
+        noiseImage.sprite = sprites[Mathf.FloorToInt(sprInt)];
 
+        float lerpValue = 0;
+        if (transform.position.x < -260f)
+            lerpValue = (transform.position.x + 260) * -0.007f;
+        else if (transform.position.x > 540f)
+            lerpValue = (transform.position.x - 540) * 0.007f;
+        else if (transform.position.z < 370f)
+            lerpValue = (transform.position.z + 370) * -0.007f;
+        else if (transform.position.z > 350f)
+            lerpValue = (transform.position.z - 350) * 0.007f;
+        if (lerpValue != 0)
+        {
+            noiseImage.color = Color.Lerp(Color.clear, Color.white, lerpValue);
+            if (lerpValue >= 1)
+            {
+                transform.position = new Vector3(0, 2, 0);
+                rBody.velocity = rBody.angularVelocity = Vector3.zero;
+            }
+        }
+        
         //final timer
         if (InGamecv.GetComponent<CanvasController>().timer <= 0) menuGameOver();
     }
