@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class CarMovement : MonoBehaviour {
 	public AudioClip sDerrape;
+	public AudioClip sDaño;
 
 	public 	AudioSource fuenteAudio;
 
@@ -72,16 +73,16 @@ public class CarMovement : MonoBehaviour {
 		float sounvel = auxVel.x;
 		if (sounvel < 0) 
 			sounvel = sounvel * -1;
-		float auxSound = auxVel.z;
-		if (auxSound < 0)
-			auxSound = auxSound * -1;
 
 		if (sounvel < 10) {
 			fuenteAudio.volume = 0;
 		} else {
-			if (!fuenteAudio.isPlaying){
-				fuenteAudio.Play ();
+			if (fuenteAudio.clip != sDerrape){
+				fuenteAudio.clip = sDerrape;
 			}
+			if(!fuenteAudio.isPlaying)
+				fuenteAudio.Play ();
+			if (fuenteAudio.clip == sDerrape)
 			fuenteAudio.volume = sounvel /60;
 
 		}
@@ -128,6 +129,13 @@ public class CarMovement : MonoBehaviour {
             if (health <= 2)
                 pSys.SetActive(true);
             if (health == 0) menuGameOver();
+
+			if (fuenteAudio.clip != sDaño) {
+				fuenteAudio.clip = sDaño;
+				fuenteAudio.volume = 1;
+				if(!fuenteAudio.isPlaying)
+				fuenteAudio.Play ();
+			}
         }
     }
 
