@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CarMovement : MonoBehaviour {
 
@@ -23,7 +24,11 @@ public class CarMovement : MonoBehaviour {
     public int maxHealth;
     public int health;
 
-	void Start () {
+    public GameObject InGamecv;
+    public GameObject GameOvercv;
+    public Text ScorePoints;
+
+    void Start () {
         maxHealth = health = 5;
         if (playerGO == null)
             playerGO = this.gameObject;
@@ -53,6 +58,9 @@ public class CarMovement : MonoBehaviour {
         if (!grounded && !activeCor) StartCoroutine(RespawnTimer());
         grounded = false;
         if (Input.GetKey(KeyCode.Space)) rBody.velocity /= 1.01f;
+
+        //final timer
+        if (InGamecv.GetComponent<CanvasController>().timer <= 0) menuGameOver();
     }
 
     private void OnCollisionEnter(Collision other)
@@ -60,9 +68,10 @@ public class CarMovement : MonoBehaviour {
         if (other.collider.tag == "CollisionDmg" && other.impulse.magnitude > 45)           //Resta vida al chocarse con los muros muy fuerte
         {
             health--;
-            if (health >= 0) CanvasController.canvasController.SetHealth(health);
+            if (health >= 1) CanvasController.canvasController.SetHealth(health);
             if (health <= 2)
                 pSys.SetActive(true);
+            if (health == 0) menuGameOver();
         }
     }
 
@@ -85,5 +94,14 @@ public class CarMovement : MonoBehaviour {
     {
         rBody.velocity = rBody.angularVelocity = Vector3.zero;
         transform.rotation = Quaternion.Euler(Vector3.zero);
+    }
+
+    public void menuGameOver()                                                               //Cambia el canvas por el GameOver
+    {
+        
+        ScorePoints.text = InGamecv.GetComponent<CanvasController>().enemigosDestruidos.ToString("00");
+        InGamecv.SetActive(false);
+        GameOvercv.SetActive(true);
+        rBody.isKinematic = true;
     }
 }

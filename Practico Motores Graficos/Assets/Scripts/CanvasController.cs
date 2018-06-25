@@ -9,9 +9,11 @@ public class CanvasController : MonoBehaviour {
     public Image hpImage;
     public Text enemyCount;
     public Text timerText;
-    public int DestroyedCars;
     public int enemigosDestruidos = 0;
     public int timer;
+    public int minutos;
+
+    public GameObject CanvasPausa;
 
     CarMovement player;
     float torque;
@@ -25,7 +27,7 @@ public class CanvasController : MonoBehaviour {
         {
             canvasController = this; // Singleton del canvas
         }
-        timer = 240;
+        timer = minutos*60;
         StartCoroutine(TimerUpdater());
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<CarMovement>();
     }
@@ -81,5 +83,12 @@ public class CanvasController : MonoBehaviour {
     public void SetHealth(int hp) //Actualiza la imagen que muestra la Vida
     {
         hpImage.sprite = Resources.Load<Sprite>(hp + "hp");
+    }
+
+    public void Pausa()
+    {
+        Time.timeScale = 0;
+        CanvasPausa.SetActive(true);
+        this.gameObject.SetActive(false);
     }
 }

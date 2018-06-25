@@ -5,14 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class changeScene : MonoBehaviour {
     public Object SiguienteEscena;
-    public int tuvieja;
 	// Use this for initialization
 	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
 		
 	}
 
