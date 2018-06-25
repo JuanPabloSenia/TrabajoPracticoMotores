@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -5697,10 +5697,6 @@ Prefab:
       propertyPath: car
       value: 
       objectReference: {fileID: 1842159246}
-    - target: {fileID: 1519534170156060, guid: cd6195411df315b42b80a5b95b42818e, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd6195411df315b42b80a5b95b42818e, type: 2}
   m_IsPrefabParent: 0
@@ -18152,9 +18148,10 @@ Prefab:
       propertyPath: car
       value: 
       objectReference: {fileID: 460898174}
-    - target: {fileID: 1117076812138550, guid: f6bfbccfd2f34c24b9a5603ee7535336, type: 2}
-      propertyPath: m_IsActive
-      value: 1
+    - target: {fileID: 114690972978635344, guid: f6bfbccfd2f34c24b9a5603ee7535336,
+        type: 2}
+      propertyPath: initialized
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f6bfbccfd2f34c24b9a5603ee7535336, type: 2}
@@ -21041,10 +21038,15 @@ Prefab:
       propertyPath: car
       value: 
       objectReference: {fileID: 1303731592}
+    - target: {fileID: 195876355559532804, guid: 83f0c8295e35c8d4086ea6c1d083abf8,
+        type: 2}
+      propertyPath: m_Speed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114478030615393132, guid: 83f0c8295e35c8d4086ea6c1d083abf8,
         type: 2}
-      propertyPath: isFirstCar
-      value: 0
+      propertyPath: initialized
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 83f0c8295e35c8d4086ea6c1d083abf8, type: 2}
@@ -24570,20 +24572,6 @@ Prefab:
       propertyPath: car
       value: 
       objectReference: {fileID: 1223528808}
-    - target: {fileID: 1462628769312518, guid: c8a916807ba6f1b47b89b53602072180, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114975094887472044, guid: c8a916807ba6f1b47b89b53602072180,
-        type: 2}
-      propertyPath: isFirstCar
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114975094887472044, guid: c8a916807ba6f1b47b89b53602072180,
-        type: 2}
-      propertyPath: initialized
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8a916807ba6f1b47b89b53602072180, type: 2}
   m_IsPrefabParent: 0
