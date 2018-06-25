@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CarMovement : MonoBehaviour {
+	public AudioClip sDerrape;
+
+	public 	AudioSource fuenteAudio;
+
+
 
     public static GameObject playerGO;
     public Transform leftTire;
@@ -33,8 +38,9 @@ public class CarMovement : MonoBehaviour {
     public Image noiseImage;
     float sprInt;
 
+
     void Start () {
-        maxHealth = health = 5;
+		        maxHealth = health = 5;
         if (playerGO == null)
             playerGO = this.gameObject;
 	}
@@ -57,9 +63,29 @@ public class CarMovement : MonoBehaviour {
                 if (rBody.velocity.magnitude < 10) rBody.AddForce(transform.forward * (-speed / 1.1f) * Time.deltaTime, ForceMode.Impulse);
             activeCor = false;
         }
-        auxVel.x /= 1.023f;                                                                 // Disminuye la velocidad lateral del player
+        auxVel.x /= 1.023f;                                                                // Disminuye la velocidad lateral del player
+
         if (auxVel.z > maxSpeed) auxVel.z = maxSpeed;                                       //Impide que el player supere la velocidad maxima
         rBody.velocity = transform.TransformDirection(auxVel);
+
+		//-------------------------------------------------Sonido Derrape--------------------------------------------------
+		float sounvel = auxVel.x;
+		if (sounvel < 0) 
+			sounvel = sounvel * -1;
+		float auxSound = auxVel.z;
+		if (auxSound < 0)
+			auxSound = auxSound * -1;
+
+		if (sounvel < 10) {
+			fuenteAudio.volume = 0;
+		} else {
+			if (!fuenteAudio.isPlaying){
+				fuenteAudio.Play ();
+			}
+			fuenteAudio.volume = sounvel /60;
+
+		}
+			
         if (!grounded && !activeCor) StartCoroutine(RespawnTimer());
         grounded = false;
         if (Input.GetKey(KeyCode.Space)) rBody.velocity /= 1.01f;
