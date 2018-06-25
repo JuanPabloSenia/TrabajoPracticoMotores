@@ -3409,6 +3409,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -134.994
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: af9b4038fefc08c4484a2d57e9f1cb2e, type: 3}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: af9b4038fefc08c4484a2d57e9f1cb2e, type: 3}
   m_IsPrefabParent: 0
@@ -15711,6 +15715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sDerrape: {fileID: 8300000, guid: e754eb9944fb7e64189a2847fc3f978c, type: 3}
+  "sDa\xF1o": {fileID: 0}
   fuenteAudio: {fileID: 951784948}
   leftTire: {fileID: 181582897}
   rightTire: {fileID: 444010810}
