@@ -75,16 +75,18 @@ public class CarMovement : MonoBehaviour {
 			sounvel = sounvel * -1;
 
 		if (sounvel < 10) {
+			if(fuenteAudio.clip == sDerrape)
 			fuenteAudio.volume = 0;
 		} else {
 			if (fuenteAudio.clip != sDerrape){
 				fuenteAudio.clip = sDerrape;
+				fuenteAudio.loop = true;
 			}
 			if(!fuenteAudio.isPlaying)
 				fuenteAudio.Play ();
-			if (fuenteAudio.clip == sDerrape)
-			fuenteAudio.volume = sounvel /60;
-
+			if (fuenteAudio.clip == sDerrape) {
+				fuenteAudio.volume = sounvel / 60;
+			}
 		}
 			
         if (!grounded && !activeCor) StartCoroutine(RespawnTimer());
@@ -121,9 +123,11 @@ public class CarMovement : MonoBehaviour {
     }
 
     private void OnCollisionEnter(Collision other)
-    {
+	{
+		
         if (other.collider.tag == "CollisionDmg" && other.impulse.magnitude > 45)           //Resta vida al chocarse con los muros muy fuerte
         {
+			
             health--;
             if (health >= 1) CanvasController.canvasController.SetHealth(health);
             if (health <= 2)
@@ -132,9 +136,10 @@ public class CarMovement : MonoBehaviour {
 
 			if (fuenteAudio.clip != sDaño) {
 				fuenteAudio.clip = sDaño;
+				fuenteAudio.loop = false;
+					fuenteAudio.Play ();
 				fuenteAudio.volume = 1;
-				if(!fuenteAudio.isPlaying)
-				fuenteAudio.Play ();
+
 			}
         }
     }
