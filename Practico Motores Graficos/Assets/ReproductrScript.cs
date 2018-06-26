@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class ReproductrScript : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		DontDestroyOnLoad (gameObject);
-	}
-	
+    public static GameObject musica;
 
+	void Start () {
+        if (musica == null)
+        {
+            musica = this.gameObject;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+	}
 }
