@@ -8,8 +8,8 @@ public class CarMovement : MonoBehaviour {
 	public AudioClip sDerrape;
 	public AudioClip sDaño;
 
-	public 	AudioSource fuenteAudio;
-
+	public AudioSource fuenteAudio;
+    public AudioSource choqueAudio;
 
 
     public static GameObject playerGO;
@@ -74,9 +74,9 @@ public class CarMovement : MonoBehaviour {
 		if (sounvel < 0) 
 			sounvel = sounvel * -1;
 
-		if (sounvel < 10) {
+		if (sounvel < 5) {
 			if(fuenteAudio.clip == sDerrape)
-			fuenteAudio.volume = 0;
+			    fuenteAudio.volume = 0;
 		} else {
 			if (fuenteAudio.clip != sDerrape){
 				fuenteAudio.clip = sDerrape;
@@ -85,7 +85,7 @@ public class CarMovement : MonoBehaviour {
 			if(!fuenteAudio.isPlaying)
 				fuenteAudio.Play ();
 			if (fuenteAudio.clip == sDerrape) {
-				fuenteAudio.volume = sounvel / 60;
+				fuenteAudio.volume = sounvel / 80;
 			}
 		}
 			
@@ -134,13 +134,13 @@ public class CarMovement : MonoBehaviour {
                 pSys.SetActive(true);
             if (health == 0) menuGameOver();
 
-			if (fuenteAudio.clip != sDaño) {
-				fuenteAudio.clip = sDaño;
-				fuenteAudio.loop = false;
-					fuenteAudio.Play ();
-				fuenteAudio.volume = 1;
+			/*if (choqueAudio.clip != sDaño) {
+                choqueAudio.clip = sDaño;
+                choqueAudio.loop = false;*/
+                choqueAudio.Play ();
+                //choqueAudio.volume = 1;
 
-			}
+			//}
         }
     }
 

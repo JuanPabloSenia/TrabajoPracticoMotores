@@ -1628,6 +1628,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 1873507206777406, guid: f627b8c21a4798e43a91a773b69d5dfd, type: 2}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f627b8c21a4798e43a91a773b69d5dfd, type: 2}
   m_IsPrefabParent: 0

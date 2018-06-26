@@ -4318,6 +4318,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90.00001
       objectReference: {fileID: 0}
+    - target: {fileID: 1587492998613330, guid: 8fc0435438660284584040b4cc73a809, type: 2}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fc0435438660284584040b4cc73a809, type: 2}
   m_IsPrefabParent: 0

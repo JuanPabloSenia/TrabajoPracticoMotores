@@ -648,6 +648,10 @@ Prefab:
       propertyPath: m_Name
       value: EneMedium (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1587492998613330, guid: 8fc0435438660284584040b4cc73a809, type: 2}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fc0435438660284584040b4cc73a809, type: 2}
   m_IsPrefabParent: 0
@@ -1561,6 +1565,10 @@ Prefab:
     - target: {fileID: 4486823636335938, guid: f627b8c21a4798e43a91a773b69d5dfd, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -46.190002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1873507206777406, guid: f627b8c21a4798e43a91a773b69d5dfd, type: 2}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f627b8c21a4798e43a91a773b69d5dfd, type: 2}
@@ -3200,6 +3208,10 @@ Prefab:
     - target: {fileID: 4638891928983872, guid: 75821d6f66c397249983c87d51ad76be, type: 2}
       propertyPath: m_RootOrder
       value: 81
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968507021146752, guid: 75821d6f66c397249983c87d51ad76be, type: 2}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 75821d6f66c397249983c87d51ad76be, type: 2}

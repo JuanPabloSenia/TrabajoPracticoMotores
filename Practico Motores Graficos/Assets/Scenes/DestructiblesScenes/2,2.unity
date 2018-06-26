@@ -348,6 +348,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90.00001
       objectReference: {fileID: 0}
+    - target: {fileID: 1149841220237064, guid: d075eceb14829de4f945911073e1afec, type: 2}
+      propertyPath: m_TagString
+      value: CollisionDmg
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d075eceb14829de4f945911073e1afec, type: 2}
   m_IsPrefabParent: 0
@@ -639,6 +643,10 @@ Prefab:
     - target: {fileID: 4638891928983872, guid: 75821d6f66c397249983c87d51ad76be, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968507021146752, guid: 75821d6f66c397249983c87d51ad76be, type: 2}
+      propertyPath: m_TagString
+      value: CollisionDmg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 75821d6f66c397249983c87d51ad76be, type: 2}
