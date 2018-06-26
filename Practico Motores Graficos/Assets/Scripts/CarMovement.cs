@@ -73,19 +73,20 @@ public class CarMovement : MonoBehaviour {
 		float sounvel = auxVel.x;
 		if (sounvel < 0) 
 			sounvel = sounvel * -1;
-
-		if (sounvel < 5) {
-			if(fuenteAudio.clip == sDerrape)
-			    fuenteAudio.volume = 0;
-		} else {
-			if (fuenteAudio.clip != sDerrape){
-				fuenteAudio.clip = sDerrape;
-				fuenteAudio.loop = true;
-			}
-			if(!fuenteAudio.isPlaying)
-				fuenteAudio.Play ();
-			if (fuenteAudio.clip == sDerrape) {
-				fuenteAudio.volume = sounvel / 80;
+		if (grounded) {
+			if (sounvel < 7) {
+				if (fuenteAudio.clip == sDerrape)
+					fuenteAudio.volume = 0;
+			} else {
+				if (fuenteAudio.clip != sDerrape) {
+					fuenteAudio.clip = sDerrape;
+					fuenteAudio.loop = true;
+				}
+				if (!fuenteAudio.isPlaying)
+					fuenteAudio.Play ();
+				if (fuenteAudio.clip == sDerrape) {
+					fuenteAudio.volume = sounvel / 80;
+				}
 			}
 		}
 			
